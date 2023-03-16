@@ -13,7 +13,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		 Player player=new Player("Aylin","Yiğit",1993,"13810116304");
+		 Player player=new Player("Ayşe","Gül",1995,"222222222");
 		 player.setMoney(600);
 		 BasePlayerManager playerManager=new PlayerManager(new MernisCheckService());
 		 playerManager.add(player);
